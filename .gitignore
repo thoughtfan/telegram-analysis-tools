@@ -1,0 +1,27 @@
+# Ignore text files (usually output files)
+*.txt
+
+# Ignore Telegram export JSON files (may contain private data)
+*.json
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore environment files
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
