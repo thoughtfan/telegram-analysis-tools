@@ -1,5 +1,6 @@
 # Ignore text files (usually output files)
 *.txt
+!examples/*.txt
 
 # Ignore Telegram export JSON files (may contain private data)
 *.json

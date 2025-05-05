@@ -9,7 +9,7 @@ A toolkit for processing Telegram chat exports to prepare them for analysis with
 - Split large conversations into analysis-ready chunks
 - Filter by date or message ID ranges
 ## Installation
-1. Clone this repository:
+1. Clone this repository (or you could simply download the .py scripts you need, given they have no dependencies not included in Python 3.6). If cloning:
 
    git clone https://github.com/thoughtfan/telegram-analysis-tools.git
    cd telegram-analysis-tools
