@@ -4,6 +4,7 @@
 
 # Ignore Telegram export JSON files (may contain private data)
 *.json
+!examples/*.json
 
 # Ignore Python bytecode
 __pycache__/

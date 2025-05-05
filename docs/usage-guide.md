@@ -19,7 +19,7 @@ python scripts/telegram_simplifier_plus.py input.json output.txt [options]
     -   `replace`: Replace the URL with a placeholder like `[URL]`.
     -   `domain` (default): Replace the URL with just the domain name (e.g., `[github.com]`).
 ### `telegram_filter_noise.py`
-Filters out low-value messages ("noise") from the consolidated output based on criteria like length or message ID/date.
+Filters out "noise" from the consolidated output based on likely bot messages, low-value phrases e.g. agreed, cool etc. (see code section below) and on message length.
 ```bash
 python scripts/telegram_filter_noise.py input.txt output.txt [options]
 ```
@@ -30,6 +30,29 @@ python scripts/telegram_filter_noise.py input.txt output.txt [options]
 -   `--min-length=N`: Include only messages with a character length greater than or equal to `N` (default: 0, which disables this filter).
 -   `--start-msg=ID`: Include only messages with a Telegram message ID greater than or equal to this value.
 -   `--start-date=DATE`: Include only messages with a date greater than or equal to this value. `DATE` can be in `YYYY-MM-DD` format or a Unix timestamp (number of seconds since the epoch).
+
+**filtering section of the script (amendable to your own needs)**
+```
+# Low-value standalone phrases (case insensitive)
+LOW_VALUE_PHRASES = [
+    r"^(agreed|agree|this|that|yes|no|yep|nope|maybe|ok|okay|lol|haha|hmm|cool|nice|great|\+1|-1|same|\^|indeed|true|false|correct|wrong|right|exactly|precisely|ofc|of course|def|definitely|absolutely)$",
+    r"^(thanks|thank you|ty|thx|tnx|thanks!|ty!)$",
+    r"^([hm]+|[ha]+|[lo]+|[eh]+)$",  # Variations like "hmm", "haha", "lol", "ehh"
+    r"^([kw]{1,3})$",  # Just "k" or "kk" or "w" or "ww"
+    r"^[.!?…,:;]+$",  # Just punctuation
+]
+
+# Off-topic redirections and moderation phrases
+OFF_TOPIC_PATTERNS = [
+    r"^(\/off|\/price)\b",  # Rose commands
+    r"please (take|move|continue) this (discussion|conversation|topic) to",
+    r"this (discussion|conversation|topic) belongs in",
+    r"there('s| is) a (channel|group|chat) for (this|that|price)",
+    r"let's (keep|stay) on topic",
+    r"this is (off|getting off) topic",
+]
+```
+
 ### `chunk_splitter_with_dates.py`
 Splits a large text file into smaller chunks of a specified size, reporting the date range covered by each chunk.
 ```bash
@@ -42,7 +65,7 @@ python scripts/chunk_splitter_with_dates.py input.txt chunk_prefix [max_chars]
 ## Workflow Examples
 ### Basic Cleanup for Reading
 ```bash
-# Convert JSON export to a human-readable markdown file
+# Convert JSON export to a human-readable markdown file with message IDs
 python scripts/telegram_simplifier_plus.py telegram_export.json readable_chat.md --markdown=readable_chat.md
 # Read the markdown version
 less readable_chat.md # Or use your preferred text editor/viewer

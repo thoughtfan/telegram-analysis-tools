@@ -41,7 +41,7 @@ A toolkit for processing Telegram chat exports to prepare them for analysis with
 
 ## More Information
 See the [Usage Guide](docs/usage-guide.md) for detailed options and advanced scenarios. 
-Refer to two examples in the [examples folder](examples/) to see llm-optimised (.txt) and human-readable (.md.) outputs of telegram_simplifier_plus.py.
+There are two output examples of telegram_simplifier_plus.py: the llm-optimised [sample_output.txt](examples/sample_output.txt) and the optional (`--markdown=FILE`) human-readable [sample_output.md](examples/sample_output.md) *with message ID's to refer to them from LLM summaries*. (For comparison purposes, also included is a file with the same three example messages in the raw form in which it was exported from Telegram: [sample-input_telegram-export.json](examples/sample-input_telegram-export.json)).
 If you are interested in contributiong to this project, please see the [Contributing page](docs/CONTRIBUTING.md).
 
 ## License

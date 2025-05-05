@@ -5,7 +5,7 @@ _This markdown file was automatically generated for easy reading and reference._
 ---
 
 ### Message ID: 108472
-**From:** Shadow Of Harbringer 👁️🧀 (user5472078042)
+**From:** Shadow ******** 👁️🧀 (user********)
 **Date:** 2024-09-18 23:29:17
 
 > It's paramount to back up your seed phrase. Without it, your money can stop being "your money" tomorrow.
@@ -24,7 +24,7 @@ _This markdown file was automatically generated for easy reading and reference._
 ---
 
 ### Message ID: 108473
-**From:** Big Hair (user422316227)
+**From:** Big Hair (user********)
 **Date:** 2024-09-18 23:55:59
 
 > 8 year old daughter:  what's the name of that girl that invented bitcoin? 
@@ -34,7 +34,7 @@ Her: it was a girl dad! Listen to that name .... satoshi? 😂
 ---
 
 ### Message ID: 108474
-**From:** Jeremy (user1511941337)
+**From:** Jeremy (user********)
 **Date:** 2024-09-19 00:26:17
 
 > 200 IQ daughter

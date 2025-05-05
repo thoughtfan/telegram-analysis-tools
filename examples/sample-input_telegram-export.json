@@ -1,0 +1,149 @@
+{
+ "name": "The ******** (Discussion)",
+ "type": "public_supergroup",
+ "id": 1670501586,
+ "messages": [
+ {
+   "id": 108472,
+   "type": "message",
+   "date": "2024-09-18T23:29:17",
+   "date_unixtime": "1726694957",
+   "edited": "2024-09-18T23:29:47",
+   "edited_unixtime": "1726694987",
+   "from": "Shadow ********",
+   "from_id": "user********",
+   "reply_to_message_id": 108448,
+   "text": "It's paramount to back up your seed phrase. Without it, your money can stop being \"your money\" tomorrow.\n\nYou know, few years ago ALL wallets ensured you have backed up your seed phrase by default by utilizing things like \n\n- Disabling copy+paste\n- Ensuring that you have to type the phrase again manually\n\nIt's just that people are too lazy so they complained and now most wallets don't do it immediately. But it's a mistake.\n\nPeople should be nagged and nagged and nagged and educated until it gets into their stubborn brains that seed phrase = their money.\n\nNot your keys, not your coins. Seed is \"keys\".",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "It's paramount to back up your seed phrase. Without it, your money can stop being \"your money\" tomorrow.\n\nYou know, few years ago ALL wallets ensured you have backed up your seed phrase by default by utilizing things like \n\n- Disabling copy+paste\n- Ensuring that you have to type the phrase again manually\n\nIt's just that people are too lazy so they complained and now most wallets don't do it immediately. But it's a mistake.\n\nPeople should be nagged and nagged and nagged and educated until it gets into their stubborn brains that seed phrase = their money.\n\nNot your keys, not your coins. Seed is \"keys\"."
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 4,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "********",
+        "from_id": "user********",
+        "date": "2024-09-19T08:14:59"
+       },
+       {
+        "from": "Dustin ********",
+        "from_id": "user********",
+        "date": "2024-09-19T03:21:32"
+       },
+       {
+        "from": "********",
+        "from_id": "user1549784331",
+        "date": "2024-09-18T23:44:39"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 108473,
+   "type": "message",
+   "date": "2024-09-18T23:55:59",
+   "date_unixtime": "1726696559",
+   "edited": "2024-09-19T00:26:03",
+   "edited_unixtime": "1726698363",
+   "from": "Big Hair",
+   "from_id": "user********",
+   "text": "8 year old daughter:  what's the name of that girl that invented bitcoin? \nMe: Satoshi Nakamoto? No one Knows if they were a girl or boy\nHer: it was a girl dad! Listen to that name .... satoshi? 😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "8 year old daughter:  what's the name of that girl that invented bitcoin? \nMe: Satoshi Nakamoto? No one Knows if they were a girl or boy\nHer: it was a girl dad! Listen to that name .... satoshi? 😂"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 4,
+      "emoji": "❤",
+      "recent": [
+       {
+        "from": "********",
+        "from_id": "user********",
+        "date": "2024-09-19T11:39:24"
+       }
+      ]
+     },
+     {
+      "type": "emoji",
+      "count": 3,
+      "emoji": "😁",
+      "recent": [
+       {
+        "from": "********",
+        "from_id": "user********",
+        "date": "2024-09-19T11:39:24"
+       },
+       {
+        "from": "Paul********",
+        "from_id": "user7152181949",
+        "date": "2024-09-19T08:15:17"
+       }
+      ]
+     },
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍"
+     }
+    ]
+  },
+  {
+   "id": 108474,
+   "type": "message",
+   "date": "2024-09-19T00:26:17",
+   "date_unixtime": "1726698377",
+   "edited": "2024-09-19T00:38:40",
+   "edited_unixtime": "1726699120",
+   "from": "Jeremy",
+   "from_id": "user********",
+   "reply_to_message_id": 108473,
+   "text": "200 IQ daughter",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "200 IQ daughter"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 3,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "********",
+        "from_id": "user********",
+        "date": "2024-09-19T11:39:27"
+       },
+       {
+        "from": "Erd********",
+        "from_id": "user********",
+        "date": "2024-09-19T02:41:21"
+       },
+       {
+        "from": "Big Hair",
+        "from_id": "user********",
+        "date": "2024-09-19T02:11:08"
+       }
+      ]
+     },
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "💯"
+     }
+    ]
+  },
+ ]
+}
